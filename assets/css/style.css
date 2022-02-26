@@ -1,19 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --bgcolor1: rgb(186, 183, 183);
   --bgcolor2: rgb(132, 134, 144);
 }
 
 
-header {
+body {
+  overflow: hidden;
+  height: 100%;
+}
+/* body {
+  margin: 0 auto;
+  background-size: cover;
   display: flex;
-  padding: 20px;
-  background-color: var(--bgcolor2);
+  flex-direction: column;
+} */
+#net {
+  width: cover ;
+  height: 800px;
+  z-index: -1;
 }
 
-header nav {
+header {
+  padding: 200px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+}
+
+
+body nav {
   padding: 20px;
   margin: auto;
+  width: 100%;
   background-color: var(--bgcolor1);
+}
+
+.flex-center button {
   justify-content: center;
   justify-content: space-evenly;
+}
+
+#about {
+  padding: 500px;
+  margin: 5;
+}
+
+
+#projects {
+  padding: 500px;
+  margin: 5;
 }
