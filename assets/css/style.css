@@ -8,7 +8,7 @@
 }
 
 body {
-  overflow: hidden;
+  width: 100%;
   height: 100%;
   display: flex;
   background-size: cover;
@@ -16,7 +16,7 @@ body {
 
 a {
   border-radius: 10px;
-  padding: 200px 80px 200px 80px;
+  pad: 20;
   margin: 25px;
   background-color: lightgray;
   box-shadow: 0 15px 15px rgb(100 100 100);
@@ -24,28 +24,40 @@ a {
   text-decoration: none;
 }
 
+#net-background a {
+  width: 250px;
+  height: 400px;
+}
+
 a:hover {
   transform: scale(1.12);
 }
 
 .container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: center;
 }
+
 header {
+  display: flex;
   padding: 20px;
-  background-size: cover;
-  background-position: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  position: fixed;
+  position: relative;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  justify-content: center;
+  min-height: 100px;
 }
 
 #page-nav {
-  padding: 40px;
+  padding: 10px;
   margin: 0 auto;
-  width: cover;
+  width: 100%;
   background-color: var(--bgcolor1);
   background-size: cover;
   display:flex; 
@@ -63,13 +75,18 @@ header {
 
 #about {
   margin: 5;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 200px;
 }
 
 #projects {
   padding: 500px;
   margin: 5;
 }
-
 
 
 #net-background {
