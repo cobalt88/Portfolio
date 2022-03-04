@@ -6,7 +6,13 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- <script type="text/javascript" src="./assets/java/logic.js"></script> -->
+  <style>
+    #net-background {
+      background-size: cover;
+    }
 
+  </style>
+  <script src="./assets/java/logic.js"></script>
 
 
 </head>
@@ -15,24 +21,29 @@
 
 <body  class="container">
 
+  <header>
+    <h1>Vincent Teune</h1>
+  </header>
 
   <nav id="page-nav">
     <a href="#about">About</a>
-    <a href="#projects">WebDev</a>
+    <a href="#projects-banner">Projects</a>
     <a href="#3d">3D And Me</a>
-    <a href="#carpentry">Got Wood?</a>
-    <a href="#placeholder-1">Synapses</a>
-    <a href="#placeholder-2">Are</a>
-    <a href="#placeholder-3">Still</a>
-    <a href="#placeholder-4">Processing</a>
+    <a href="#carpentry">Carpentry</a>
+    <a href="#KDC">KDC</a>
+    <a href="#placeholder-2">P2</a>
+    <a href="#placeholder-3">P3</a>
+    <a href="#placeholder-4">P4</a>
   </nav>
-  
-  <section id="about" class="">
-    <div id="avatar"></div><!-- include company logo image as avatar -->
-    <h2>About Me</h2>
-    <!-- image of the definition of an engineer including latin root translation -->
-    <!-- about me section -->
-      I am an Engineer, through and through. 
+
+  <section id="about">
+
+    <div>
+      <img src="./assets/images/" alt="Vincent Teune">
+    </div>
+
+    <div>
+          I am an Engineer, through and through. 
       And by that I don't mean that I just make cool stuff and prefer the title of Engineer. 
       The way I think, the way I work, the way I approach almost everything, is as an Engineer, it is simply who I am.
       When I see something new, or at least new to me, my first thoughts are generally something along the lines of "How does that work? What is its function? Can I take it apart? Can I make it better? What if..."
@@ -45,35 +56,52 @@
       And that is why I dove head-first into the realm of Software Engineering.</br/>
       -Vincent Teune<br/>
       March 2022<br/>
+    </div>
+
+    <ul>
+      <li>need to put some basic stuff here.</li>
+      <li>maybe my licenses and certs for right now</li>
+    </ul>
+
+
   </section>
 
-    <!-- link letters of recomendation -->
-    <!-- list licences and certifications, awards, certificates, ect.  
-  </section> -->
+  <div class="projects-banner"><h2>Live Projects And Pages</h2></div>
+
 
   <section class="container" id="net-background">
+
+
     <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">Reference site</a>
 
-    <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">Reference Site</a>
+    <a href="https://cobalt88.github.io/Challenge-1-Code-Refactor/" target="blank" rel="noopener noreferrer">Horiseon</a>
 
-    <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">Reference Site</a>
+    <a href="https://cobalt88.github.io/reference_site/sub_pages/taglist.html" target="blank" rel="noopener noreferrer">HTML Tags</a>
 
-    <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">Reference Site</a>
+    <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">placeholder</a>
 
     <!-- <a href="https://cobalt88.github.io/reference_site/" target="blank" rel="noopener noreferrer">Reference Site</a> -->
     
 
   </section>
 
-  <section id="3d">
+  <section id="3d" class="3d">
     <!-- 3d printing, 3d design, thingiverse page, (remember to upload more designs to thingiverse) -->
+    <h2>3D And Me</h2>
+
+    <ul>
+      <li>add links to thingiverse and page for 3d printing services (build a page for 3d printing services)</li>
+      <li>photos of spme of the prints, practical and asthetic</li>
+      <li>link to page for 3d design, fusion 360, all that (build a page for that)</li>
+      <li>this and carpentry should probably be nested under the KDC segment</li>
+    </ul>
   </section>
 
-  <section id="placeholder-1">
+  <section id="KDC" class="KDC">
     <!-- all things KDC -->
   </section>
 
-  <section id="carpentry">
+  <section id="carpentry" class="carpentry">
     <!-- carpentry and such-->
   </section>
 
@@ -105,6 +133,7 @@
         points: 20.00,
         maxDistance: 26.00,
         spacing: 20.00
+      
       })  
     </script>
 
@@ -112,6 +141,12 @@
 </body>
 
 <footer>
+  <p>
+    <h4>Contact Informaton</h4> <br/>
+    Email: vincentteune@gmail.com <br/>
+    <a href="https://www.linkedin.com/in/vincent-teune-2779404b/" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://github.com/cobalt88" rel="noopener noreferrer">GitHub</a>
+  </p>
   <!-- come up with some sort of footer insert for all of my pages i build for myself -->
   <!-- include request more info form and a thanks for scrolling -->
 </footer>
