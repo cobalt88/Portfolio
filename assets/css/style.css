@@ -1,11 +1,31 @@
 * {
   margin: 0;
+  
 }
 
 :root {
   --bgcolor1: rgb(186, 183, 183);
   --bgcolor2: rgb(132, 134, 144);
 }
+
+header {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  justify-content: center;
+  min-height: 100px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 body {
   width: 100%;
@@ -42,27 +62,21 @@ a:hover {
   justify-content: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
 .center {
   display: flex;
   justify-content: center;
 }
 
-header {
-  display: flex;
-  padding: 20px;
-  flex-direction: column;
-  width: 100%;
-  position: relative;
-  color: aliceblue;
-  background-color: rgb(63, 63, 63);
-  justify-content: center;
-  min-height: 100px;
-}
 
-header h1 {
-  display: flex;
-  justify-content: center;
-}
 
 #page-nav {
   padding: 10px;
@@ -81,16 +95,29 @@ header h1 {
 #page-nav a {
   padding: 10px;
   justify-content: space-evenly;
+  }
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-#about {
-  margin: 5;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  min-height: 200px;
+.about p {
+  
+}
+
+#featured {
+ min-width: 400;
+}
+
+#avatar {
+  background-size: contain;
+  max-width: 300;
+  max-height: 300;
+  min-width: 100;
+  min-height: 100;
 }
 
 #projects {
@@ -111,3 +138,4 @@ header h1 {
 #net-background {
   padding: 100px;
 }
+
