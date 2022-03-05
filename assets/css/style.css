@@ -13,7 +13,7 @@
 header {
   display: flex;
   padding: 20px;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   position: relative;
   color: aliceblue;
@@ -38,7 +38,7 @@ body {
 
 a {
   border-radius: 10px;
-  pad: 20;
+  /* pad: 20; */
   margin: 25px;
   background-color: lightgray;
   box-shadow: 0 15px 15px rgb(100 100 100);
@@ -63,6 +63,10 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   justify-content: center;
+}
+
+.container a {
+  padding: 20px;
 }
 
 .flex {
@@ -97,15 +101,21 @@ a:hover {
 
 #page-nav a {
   padding: 10px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  }
+
+  .about-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
   }
 
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
-  flex-wrap: wrap;
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
 }
 
 .about p {
@@ -115,10 +125,15 @@ a:hover {
 
 #featured {
 padding: 200;
-max-width: 400;
-max-height: 400;
+/* width: 400;
+height: 400; */
 background-image: url(../images/runbuddy-clip.png);
 background-size: contain;
+}
+
+#featured a {
+  width: 400px;
+  height:400px;
 }
 
 
@@ -182,7 +197,7 @@ footer a {
   align-items: center;
 }
 
-@media screen (max-width: 600px) {
+/* @media screen { (max-width: 600px) {
   header {
     min-height: 300px;
   }
@@ -192,7 +207,7 @@ footer a {
   }
 
 
-}
+} */
 
 
 
