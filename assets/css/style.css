@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   
 }
 
@@ -40,7 +42,6 @@ a {
   margin: 25px;
   background-color: lightgray;
   box-shadow: 0 15px 15px rgb(100 100 100);
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
 
@@ -50,7 +51,9 @@ a {
 }
 
 a:hover {
-  transform: scale(1.12);
+  transform: scale(1.12);  
+  transition: all 0.2s ease-in-out;
+
 }
 
 .container {
@@ -102,18 +105,29 @@ a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .about p {
-  
+  text-align: center;
+  font-size: 18px;
 }
 
 #featured {
- min-width: 400;
+padding: 200;
+max-width: 400;
+max-height: 400;
+background-image: url(../images/runbuddy-clip.png);
+background-size: contain;
+}
+
+
+#refactor {
+  background-image: url(../images/horiseon.png);
+  background-size: contain;
 }
 
 #avatar {
-  background-size: contain;
   max-width: 300;
   max-height: 300;
   min-width: 100;
@@ -121,8 +135,13 @@ a:hover {
 }
 
 #projects {
-  padding: 500px;
-  margin: 5;
+  background-image: url(../images/reference.png);
+  background-size: contain;
+}
+
+#html {
+  background-image: url(../images/html-2.png);
+  background-size: contain;
 }
 
 .projects-banner {
@@ -138,4 +157,42 @@ a:hover {
 #net-background {
   padding: 100px;
 }
+
+.design {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+}
+
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(55, 55, 121);
+  padding: 100px;
+}
+
+footer a {
+  display: flex;
+  max-width: 80px;
+  align-items: center;
+}
+
+@media screen (max-width: 600px) {
+  header {
+    min-height: 300px;
+  }
+
+  #page-nav {
+    padding: 40px;
+  }
+
+
+}
+
+
 
