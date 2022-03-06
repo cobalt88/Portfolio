@@ -76,38 +76,6 @@ a:hover {
   justify-content: center;
 }
 
-
-
-
-/* .container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  justify-content: center;
-} */
-
-/* .container a {
-  padding: 20px;
-} */
-
-/* .flex {
-  display: flex;
-}
-
-.flex-r {
-  display: flex;
-  flex-direction: row;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-} */
-
-
-
 .page-nav {
   padding: 10px;
   margin: 0 auto;
@@ -160,6 +128,11 @@ a:hover {
 #html {
   background-image: url(../images/html-2.png);
   background-size: contain;
+}
+
+#passGenerator {
+  background-image: url(../images/passGen.png);
+  background-size: cover;
 }
 
 .projects-banner {
