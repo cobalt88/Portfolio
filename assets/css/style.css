@@ -135,6 +135,11 @@ a:hover {
   background-size: cover;
 }
 
+#taskinator {
+  background-image: url(../images/taskinator.png);
+  background-size: contain;
+}
+
 .projects-banner {
   display: flex;
   justify-content: center;
