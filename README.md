@@ -1,6 +1,6 @@
 # Vincent Teune/cobalt88 Portfolio
 
-This is currently the 2nd version of this website, and will likely not be the last. 
+This is currently the 2nd version of this website, complete refactor is scheduled. 
 
 https://vtportfolio.net
 
