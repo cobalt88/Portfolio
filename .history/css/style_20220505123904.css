@@ -8392,15 +8392,10 @@ strong {
   transform: translateX(0px);
   opacity: 1; }
 
-.header-container{
-  height: 100vh;
-  position: relative;
-}
-
 .hero-wrap {
   width: 100%;
-  position: sticky;
-  height: 100vh;
+  position: relative;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   z-index: 0; }

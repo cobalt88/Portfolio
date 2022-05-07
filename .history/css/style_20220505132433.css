@@ -8394,7 +8394,7 @@ strong {
 
 .header-container{
   height: 100vh;
-  position: relative;
+  position: sticky;
 }
 
 .hero-wrap {
