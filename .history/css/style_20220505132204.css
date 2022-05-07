@@ -8394,12 +8394,11 @@ strong {
 
 .header-container{
   height: 100vh;
-  position: relative;
 }
 
 .hero-wrap {
   width: 100%;
-  position: sticky;
+  position: relative;
   height: 100vh;
   background-repeat: no-repeat;
   background-position: top center;
