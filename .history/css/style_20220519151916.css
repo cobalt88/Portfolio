@@ -59,10 +59,10 @@ body {
   text-align: left;
   }
 
-  #contact {
-    background-color: rgba(16, 16, 16, 0.712);
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .paralax-container {
+    background: #191a1c;
+    z-index: 0;
+    position: sticky;
   }
 
 [tabindex="-1"]:focus {
@@ -8406,83 +8406,34 @@ strong {
   margin-bottom: 50px;
 }
 
-.page-wrapper {
-  width: 100%;
-  position: fixed;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: top center;
-  perspective: 200px;
-  z-index: -1; 
-}
 
-
-
-.paralax-container {
-  background: #191a1c;
-  z-index: 5;
-  position: relative;
-  padding: 25px;
-  ;
-}
-
-.paralax-2 {
-  z-index: 10;
-}
-
-.parallax {
-  height: 500px; /* fallback for older browsers */
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 300px;
-  perspective: 300px;
-}
-
-.parallax__group {
-  position: relative;
-  height: 500px; /* fallback for older browsers */
-  height: 100vh;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
-.parallax__layer {
+.parallax::after {
+  content: " ";
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
 }
 
-.parallax__group {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
+
+.page-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  perspective: 2px;
+  z-index: -1; 
 }
-
-.parallax__layer--fore {
-  -webkit-transform: translateZ(90px) scale(.7);
-  transform: translateZ(90px) scale(.7);
-  z-index: 1;
-}
-
-.parallax__layer--base {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  z-index: 4;
-}
-
-.parallax__layer--back {
-  -webkit-transform: translateZ(-300px) scale(2);
-  transform: translateZ(-300px) scale(2);
-  z-index: 3;
-}
-
-.parallax__layer--deep {
-  -webkit-transform: translateZ(-600px) scale(3);
-  transform: translateZ(-600px) scale(3);
-  z-index: 2;}
-
 .hero-wrap {
   width: 100%;
   position: fixed;

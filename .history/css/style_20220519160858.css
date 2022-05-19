@@ -60,9 +60,7 @@ body {
   }
 
   #contact {
-    background-color: rgba(16, 16, 16, 0.712);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.575);
   }
 
 [tabindex="-1"]:focus {
