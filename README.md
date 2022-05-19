@@ -5,7 +5,7 @@ This is currently the 2nd version of this website, complete refactor is schedule
 https://vtportfolio.net
 
 
-![image](./assets/images/portfolio-image.png)
+![image]()
 
 ### Sumary
 
