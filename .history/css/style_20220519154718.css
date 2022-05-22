@@ -59,11 +59,7 @@ body {
   text-align: left;
   }
 
-  #contact {
-    background-color: rgba(16, 16, 16, 0.712);
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8415,8 +8411,6 @@ strong {
   perspective: 200px;
   z-index: -1; 
 }
-
-
 
 .paralax-container {
   background: #191a1c;
