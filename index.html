@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+    <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -140,26 +140,27 @@
 		<section id="featured" class="ftco-section">
 		  <div class="container">
 		  	<div class="row">
-		  		<div class="col-md-9">
+		  		<!-- <div class="col-md-9 col-lg-12"> -->
 		  			<div class="row">
-				  		<div class="col-md-5 heading-section ftco-animate pb-5">
+				  		<div class="col-md-5 heading-section ftco-animate pb-5 row">
 		            <h2 class="mb-4">Spotlight Projects</h2>
 		            <p>These are some of the projects I would like to showcase up front.</p>
 		          </div>
 				  	</div>
 		  			<div class="row">
-		        	<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="media-body">
-										<a href="https://amir-hackett.github.io/RecipEZ/"><img src="./images/recipEZ-logo.png" style="max-height: 150px;" ></a>
-		                <p>RecipEZ started off as an experiment with a recipe search API, and quickly evolved into one of the most useful recipe resources I've ever used. The goal with this application is to provide a single site where you can search any recipe you want, and get back a simplified recipe card. No 10 mile long blog posts about how great grandma came up with the best marinara sauce you've ever tasted. Just a recipe in an easy to read, easy to print out, easy to find again, format.</p>
+
+		        	<div class="card col m-5">
+		        		<div class=" block-6 ftco-animate">
+										<a href="https://amir-hackett.github.io/RecipEZ/"><img src="./assets/images/recipEZ-logo.png" class="card-img-top" ></a>
+		                <div class="card-body">
+										<p class="card-text">RecipEZ started off as an experiment with a recipe search API, and quickly evolved into one of the most useful recipe resources I've ever used. The goal with this application is to provide a single site where you can search any recipe you want, and get back a simplified recipe card. No 10 mile long blog posts about how great grandma came up with the best marinara sauce you've ever tasted. Just a recipe in an easy to read, easy to print out, easy to find again, format.</p>
 		              </div>
 		            </div> 
 		        	</div>
-		        	<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
+		        	<div class="card col m-5">
+		        		<div class=" block-6 ftco-animate">
 		              <a href="" ><img src=""></a>
-		              <div class="media-body">
+		              <div class="card-body">
 		                <h3 class="heading mb-3">Employee Tracker</h3>
 		                <p>Command Line Interface Application for database manipulation, This is currently the foundation for an API that is in development</p>
 										<ul>
@@ -170,17 +171,17 @@
 		              </div>
 		            </div> 
 		        	</div>
-							<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
+							<div class="card col m-5">
+		        		<div class=" block-6 ftco-animate">
 		              <a href="" ><img src=""></a>
-		              <div class="media-body">
+		              <div class="card-body">
 		                <h3 class="heading mb-3">Going Down The Rabbit Hole</h3>
 		                <p>Coming soon</p>
 		              </div>
 		            </div> 
 		        	</div>
 	        	</div>
-					</div>
+					<!-- </div> -->
 		  	</div>
 		  </div>
 		</section>  
@@ -190,43 +191,57 @@
 		
     <div class="container" id="applications">
       <div class="card-deck">
-        <div class="card">
+        <a href=" https://cobalt88.github.io/Challenge-1-Code-Refactor/" target="blank" rel="noopener noreferrer" class="card col-3">
           <div class="card-body">
             <h5 class="card-title">Horiseon</h5>
+						<h6><i class="fa-solid fa-code"></i>HTML5</h6>
+						<h6><span class="icon-css3"></span>CSS3</h6>
             <p class="card-text">Landing Page for Horiseon Web Services</p>
             <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated February 2022</small></p>
           </div>
-        </div>
-        <div class="card">
+        </a>
+
+        <a href="https://cobalt88.github.io/countdown/" target="blank" rel="noopener noreferrer" class="card col-3">
           <div class="card-body">
             <h5 class="card-title" style="color: aliceblue;">Countdown</h5>
+						<h6><i class="fa-brands fa-js"></i> JavaScript ES6</h6>
+						<h6><i class="fa-solid fa-code"></i>HTML5</h6>
+						<h6><span class="icon-css3"></span>CSS3</h6>
             <p class="card-text">A static web page to countdown to a specific date.</p>
             <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated May 2022</small></p>
           </div>
-        </div>
-        <div class="card">
+        </a>
+
+        <a href="https://github.com/cobalt88/random-pass-generator" target="blank" rel="noopener noreferrer" class="card col-3">
           <div class="card-body">
             <h5 class="card-title">Random Password Generator</h5>
+							<h6><i class="fa-brands fa-js"></i> JavaScript ES6</h6>
+							<h6><i class="fa-solid fa-code"></i>HTML5</h6>
+							<h6><span class="icon-css3"></span>CSS3</h6>
             <p class="card-text">Javascript based radom password generator</p>
             <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated March 2022 </small></p>
           </div>
-        </div>
-				<div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Team Generator</h5>
-            <p class="card-text">Dynamic CLI Application</p>
-            <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated April 2022 </small></p>
-          </div>
-        </div>
-				<div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Team Generator</h5>
-            <p class="card-text">Dynamic CLI Application</p>
-            <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated April 2022 </small></p>
-          </div>
-        </div>
-      </div>
+        </a>
 
+				<a href="https://github.com/cobalt88/team-generator" target="blank" rel="noopener noreferrer" class="card col-3">
+          <div class="card-body">
+            <h5 class="card-title">Team Generator</h5>
+						<h6><i class="fa-brands fa-js"></i> JavaScript ES6</h6>
+						<h6><i class="fa-brands fa-node-js"></i>Node-JS</h6>
+            <p class="card-text">Dynamic CLI Application</p>
+            <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated April 2022 </small></p>
+          </div>
+        </a>
+
+				<a href="https://github.com/cobalt88/Frankenprinter" target="blank" rel="noopener noreferrer" class="card col-3">
+          <div class="card-body">
+            <h5 class="card-title">Frankenprinter Firmware</h5>
+            <p class="card-text">Customized 3D printer firmware based off the Marlin 2.0.x bugfix codebase for a custom 3D printer project.</p>
+            <p class="card-text" style="position: absolute; bottom: 0;"><small class="text-muted">Last updated April 2022 </small></p>
+          </div>
+        </a>
+
+      </div>
     </div>
 
 		  <!-- <div class="container-fluid px-md-0">
@@ -370,8 +385,7 @@
     <script src="js/aos.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
+		<script src="https://kit.fontawesome.com/df3c1e2c11.js" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 		<script>
