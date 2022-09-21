@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  
+}
+
+:root {
+  --bgcolor1: rgb(186, 183, 183);
+  --bgcolor2: rgb(132, 134, 144);
+}
+
+
+body {
+  display: flex;
+  background-size: cover;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  justify-content: center;
+  min-height: 100px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.featured {
+  display: flex;
+  background-image: url(../images/runbuddy-clip.png);
+  background-size: contain;
+  width: 350px;
+  height: 400px;
+  }
+  
+
+
+a {
+  border-radius: 10px;
+  /* pad: 20; */
+  margin: 25px;
+  background-color: lightgray;
+  box-shadow: 0 15px 15px rgb(100 100 100);
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.12);  
+  transition: all 0.2s ease-in-out;
+
+}
+
+#net-background a {
+  width: 250px;
+  height: 400px;
+}
+
+.vanta-canvas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.page-nav {
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--bgcolor1);
+  background-size: cover;
+  display:flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-nav a {
+  padding: 10px
+}
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+}
+
+.about p {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+#refactor {
+  background-image: url(../images/horiseon.png);
+  background-size: contain;
+}
+
+#avatar {
+  max-width: 300;
+  max-height: 300;
+  min-width: 100;
+  min-height: 100;
+}
+
+#projects {
+  background-image: url(../images/reference.png);
+  background-size: contain;
+}
+
+#html {
+  background-image: url(../images/html-2.png);
+  background-size: contain;
+}
+
+#passGenerator {
+  background-image: url(../images/passGen.png);
+  background-size: cover;
+}
+
+#taskinator {
+  background-image: url(../images/taskinator.png);
+  background-size: contain;
+}
+
+.projects-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: aliceblue;
+  padding: 10px;
+  background-color: black;
+}
+
+
+.net-background {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.design {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 100px;
+}
+
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(55, 55, 121);
+  padding: 100px;
+  align-items: center;
+}
+
+footer a {
+  display: flex;
+  max-width: 80px;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+
+  header {
+    min-height: 300px;
+    align-items: center;  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+  }
+}
+
+ @media screen and (max-width: 500px) {
+
+  header {
+    min-height: 400px;
+    align-items: center;  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .page-nav {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  a {
+    text-align: center;
+  }
+
+} 
+
+
+
