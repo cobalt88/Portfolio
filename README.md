@@ -1,1 +1,1 @@
-This is my portfolio page. Thats all you need to know. 
+if you can read this, this page is currently undergoing a migration from raw HTML/CSS/JS to REACT

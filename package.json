@@ -19,6 +19,7 @@
     "react-scripts": "5.0.1",
     "swiper": "^8.2.6",
     "vanta": "^0.5.22",
+    "gh-pages": "^4.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -59,8 +60,5 @@
   "bugs": {
     "url": "https://github.com/cobalt88/react-portfolio/issues"
   },
-  "homepage": "https://cobalt88.github.io/react-portfolio",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  "homepage": "https://cobalt88.github.io/react-portfolio"
 }
