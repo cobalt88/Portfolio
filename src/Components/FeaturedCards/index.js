@@ -5,7 +5,7 @@ import recipEZ from "../../assets/images/recipEZ-logo-trimmed.png";
 function FeaturedCards(props) {
   return (
     <>
-      <a href="https://amir-hackett.github.io/RecipEZ/" target="_blank">
+      <a href="https://recipez.us" target="_blank">
         <Card className="featured-card grow" id="featured">
           <Card.Img
             alt="project logo"
@@ -26,11 +26,17 @@ function FeaturedCards(props) {
             support it is currently under development.
           </p>
           <p className="card-footer">
-            <i class="fa-brands fa-html5 fa-3x icon"><span className="icon-label">HTML5</span></i>
-            <i class="fa-brands fa-css3 fa-3x icon"><span className="icon-label">CSS3</span></i>
-            <i class="fa-brands fa-square-js fa-3x icon"><span className="icon-label">JavaScript</span></i>
+            <i class="fa-brands fa-html5 fa-3x icon">
+              <span className="icon-label">HTML5</span>
+            </i>
+            <i class="fa-brands fa-css3 fa-3x icon">
+              <span className="icon-label">CSS3</span>
+            </i>
+            <i class="fa-brands fa-square-js fa-3x icon">
+              <span className="icon-label">JavaScript</span>
+            </i>
           </p>
-          <a href="https://github.com/Amir-Hackett/RecipEZ" target="blank">
+          <a href="https://github.com/cobalt88/RecipEZ" target="blank">
             <i class="fa-brands fa-github fa-3x"></i>
           </a>
           <p></p>
