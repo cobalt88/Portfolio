@@ -1,1 +1,1 @@
-if you can read this, this page is currently undergoing a migration from raw HTML/CSS/JS to REACT
+Old portfolio page - no longer in use
